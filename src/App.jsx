@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import Navbar from './Components/Layout/Navbar/Navbar'
-import { Dashboard } from '@mui/icons-material'
+import Dashboard from './Components/Layout/Dashboard/Dashboard'
 
 function App() {
   const [count, setCount] = useState(0)
