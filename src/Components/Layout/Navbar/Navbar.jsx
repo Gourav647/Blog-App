@@ -10,7 +10,7 @@ const Navbar = () => {
     <AppBar color='secondary' position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
       <Toolbar>
         <Stack flexDirection={"row"} justifyContent={"space-between"} width={"100%"} alignItems={"center"}>
-          <Stack>
+          <Stack flexDirection={"row"} justifyContent={"space-between"} gap={1.5} alignItems={"center"}>
             <IconButton onClick={() => {setOpenDashboard(!openDashboard)}}>
               <Menu/>
             </IconButton>
