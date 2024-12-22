@@ -4,11 +4,13 @@ import React from 'react'
 const Dashboard = () => {
   return (
     <Drawer
-    variant='permanent'
+    open={openDashboard}
+    variant='persistent'
     sx={{
-        width: 270,
+        width: 250,
         flexShrink: 0,
-        height: "100%"
+        height: "100%",
+        [`& .MuiDrawer-paper`]: { width: 250, boxSizing: 'border-box' },
     }}
     >
       <Toolbar/>
