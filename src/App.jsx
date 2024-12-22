@@ -1,16 +1,17 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import Navbar from './Components/Layout/Navbar/Navbar'
 import Dashboard from './Components/Layout/Dashboard/Dashboard'
+import { Context } from './Context/Context'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const {dark} = useContext(Context);
   const Theme = createTheme({
     palette: {
-      mode: "dark",
+      mode: dark ? 'dark' : 'light',
       primary: {
         main: "#2E0249"
       },
