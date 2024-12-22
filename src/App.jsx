@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import Navbar from './Components/Layout/Navbar/Navbar'
+import { Dashboard } from '@mui/icons-material'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +34,7 @@ function App() {
   return (
     <ThemeProvider theme={Theme}>
       <Navbar />
+      <Dashboard/>
       <CssBaseline />
     </ThemeProvider>
   )
