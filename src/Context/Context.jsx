@@ -4,10 +4,13 @@ export const Context = createContext()
 
 const ContextProvider = (props) => {
     const [openDashboard,setOpenDashboard] = useState(true);
+    const [dark, setDark] = useState(true);
 
     const dataList = {
         openDashboard,
-        setOpenDashboard
+        setOpenDashboard,
+        dark,
+        setDark
     }
 
     return (
