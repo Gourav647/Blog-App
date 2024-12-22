@@ -9,7 +9,7 @@ const Dashboard = () => {
         width: 270,
         flexShrink: 0
     }}
-    >
+    > 
       <Toolbar/>
       <Box sx={{overflow: "auto"}}>
         <List>
