@@ -7,9 +7,10 @@ const Dashboard = () => {
     variant='permanent'
     sx={{
         width: 270,
-        flexShrink: 0
+        flexShrink: 0,
+        height: "100%"
     }}
-    > 
+    >
       <Toolbar/>
       <Box sx={{overflow: "auto"}}>
         <List>
