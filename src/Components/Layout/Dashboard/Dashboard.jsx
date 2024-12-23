@@ -16,7 +16,7 @@ const Dashboard = () => {
         height: "100%",
         [`& .MuiDrawer-paper`]: { width: 250, boxSizing: 'border-box' },
       }}
-    >
+    > 
       <Toolbar />
       <Box sx={{ overflow: "auto" }}>
         <List>
