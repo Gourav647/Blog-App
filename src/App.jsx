@@ -6,7 +6,6 @@ import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import Navbar from './Components/Layout/Navbar/Navbar'
 import Dashboard from './Components/Layout/Dashboard/Dashboard'
 import { Context } from './Context/Context'
-import NewPost from './Components/Layout/Newpost/Newpost'
 
 function App() {
   const {dark} = useContext(Context);
