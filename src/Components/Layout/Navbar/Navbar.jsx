@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <AppBar color='secondary' position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+    <AppBar color='primary' position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
       <Toolbar>
         <Stack flexDirection={"row"} justifyContent={"space-between"} width={"100%"} alignItems={"center"}>
           <Stack flexDirection={"row"} justifyContent={"space-between"} gap={1.5} alignItems={"center"}>
