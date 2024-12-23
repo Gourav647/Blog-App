@@ -24,7 +24,7 @@ const Dashboard = () => {
         <List>
           <ListItem>
             <Tooltip title="Create a new post" placement="bottom" slots={{ transition: Grow }} slotProps={{ transition: { timeout: 250 } }}>
-              <Button variant='contained' color='primary' startIcon={<Add />} sx={{ borderRadius: 15, padding: "10px 15px" }}>
+              <Button variant='contained' color='secondary' startIcon={<Add />} sx={{ borderRadius: 15, padding: "10px 15px" }}>
                 New post
               </Button>
             </Tooltip>
