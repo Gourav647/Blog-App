@@ -16,7 +16,7 @@ function App() {
         main: "#2E0249"
       },
       secondary: {
-        main: "#570A57"
+        main: "#51C494"
       },
       error: {
         main: "#FF2929"
