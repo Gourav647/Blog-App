@@ -19,7 +19,7 @@ const Navbar = () => {
       <Toolbar>
         <Stack flexDirection={"row"} justifyContent={"space-between"} width={"100%"} alignItems={"center"}>
           <Stack flexDirection={"row"} justifyContent={"space-between"} gap={1.5} alignItems={"center"}>
-            <IconButton onClick={() => { setOpenDashboard(!openDashboard) }}>
+            <IconButton color="info" onClick={() => { setOpenDashboard(!openDashboard) }}>
               <MenuIcon />
             </IconButton>
             <Typography fontSize={25}>
@@ -28,7 +28,7 @@ const Navbar = () => {
           </Stack>
           <Stack flexDirection={"row"} justifyContent={"space-between"} gap={1.5} alignItems={"center"}>
             <Tooltip title="Change mode">
-              <IconButton onClick={() => setDark(!dark)}>
+              <IconButton color="info" onClick={() => setDark(!dark)}>
                 {dark ? <LightMode /> : <DarkMode />}
               </IconButton>
             </Tooltip>
