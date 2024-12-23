@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Drawer, Fade, Grow, List, ListItem, ListItemButton, Toolbar, Tooltip } from '@mui/material'
+import { Box, Button, Divider, Drawer, Fade, Grow, Link, List, ListItem, ListItemButton, Toolbar, Tooltip } from '@mui/material'
 import React, { useContext } from 'react'
 import { Context } from '../../../Context/Context'
 import { Add, Pages } from '@mui/icons-material';
@@ -25,7 +25,9 @@ const Dashboard = () => {
           <ListItem>
             <Tooltip title="Create a new post" placement="bottom" slots={{ transition: Grow }} slotProps={{ transition: { timeout: 250 } }}>
               <Button variant='contained' color='secondary' startIcon={<Add />} sx={{ borderRadius: 15, padding: "10px 15px" }}>
+              <Link href="/newpost">
                 New post
+              </Link>
               </Button>
             </Tooltip>
           </ListItem>
